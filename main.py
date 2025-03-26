@@ -28,4 +28,8 @@ def test():
     print("test")
 
 if __name__ == '__main__':
-    main()
+    # PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+    load_dotenv()
+    root_name = os.getenv("PROJECT_ROOT")
+    print(root_name)
+
