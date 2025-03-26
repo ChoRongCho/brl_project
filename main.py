@@ -27,6 +27,9 @@ def hello():
 def test():
     print("test")
 
+def test2():
+    print("test2")
+
 if __name__ == '__main__':
     # PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
     load_dotenv()
